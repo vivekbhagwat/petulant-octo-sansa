@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sofia Montgomery</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <title>Sofia Montgomery</title>
 </head>
 
 <body class="<%= classes %>">
@@ -10,17 +12,14 @@
     <h2 class="subtitle">AEA Stage Manager</h2>
   </div>
   <nav class="menu">
-    <ul>
-      <li><a href="/">Home</a>
-      <li><a href="/bio">Bio</a>
-      <li><a href="/projects">Current Projects</a>
-      <li><a href="/resume">Resume</a>
-      <li><a href="/contact">Contact</a>
-    </ul>
+    <a class="menu-link" href="/">Home</a>
+    <a class="menu-link" href="/bio">Bio</a>
+    <a class="menu-link" href="/projects">Current Projects</a>
+    <a class="menu-link" href="/resume">Resume</a>
+    <a class="menu-link" href="/contact">Contact</a>
   </nav>
   <div class="content">
     <%= yield %>
   </div>
-</body>
-
+  </body>
 </html>
