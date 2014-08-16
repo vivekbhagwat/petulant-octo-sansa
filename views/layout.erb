@@ -13,13 +13,16 @@
   </div>
   <nav class="menu">
     <a class="menu-link" href="/">Home</a>
-    <a class="menu-link" href="/bio">Bio</a>
-    <a class="menu-link" href="/projects">Current Projects</a>
-    <a class="menu-link" href="/resume">Resume</a>
-    <a class="menu-link" href="/contact">Contact</a>
+    <a class="menu-link menu-link-bio" href="/bio">Bio</a>
+    <a class="menu-link menu-link-projects" href="/projects">Current Projects</a>
+    <a class="menu-link menu-link-resume" href="/resume">Resume</a>
+    <a class="menu-link menu-link-contact" href="/contact">Contact</a>
   </nav>
-  <div class="content">
+  <div class="content clearfix">
     <%= yield %>
   </div>
+  <footer>
+    <p>Copyright © <%= year %> Sofia Montgomery</p>
+  </footer>
   </body>
 </html>

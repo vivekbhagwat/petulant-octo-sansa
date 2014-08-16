@@ -23,10 +23,13 @@ Photo Credit Russ Rowland"
 end
 
 get '/resume' do
-  "resume"
+  send_to_template :resume, {}
 end
 
 get '/contact' do
-  "contact"
+  send_to_template :contact, {}
 end
 
+post '/contact' do
+  params[:post].inspect
+end

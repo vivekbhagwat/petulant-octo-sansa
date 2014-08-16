@@ -1,9 +1,12 @@
 /* 300: light, 400: normal, 600: semibold */
 
 body {
-  font-family: 'Open Sans', sans-serif;
   max-width: 940px;
   margin: 0 auto;
+}
+
+body, input, .form {
+  font-family: 'Open Sans', sans-serif;
 }
 
 #header {
@@ -55,8 +58,98 @@ a.menu-link:active {
   text-decoration: none;
 }
 
-.content {
-  max-width: 90%;
-  margin: 0 auto;
+.menu-link {
+  border-bottom: 2px transparent solid;
 }
 
+.bio .menu-link-bio {
+  border-bottom-color: red;
+}
+
+.projects .menu-link-projects {
+  border-bottom-color: red;
+}
+
+.resume .menu-link-resume {
+  border-bottom-color: red;
+}
+
+.contact .menu-link-contact {
+  border-bottom-color: red;
+}
+
+.content {
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+footer {
+  width: 100%;
+  margin 20px auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+.column {
+  float: left;
+  margin: 0;
+  width: 45%;
+  padding: 10px;  
+}
+
+.right-column {
+  float: right;
+}
+
+.image-container img {
+  outline: 2px blue solid;      
+}
+
+.projects .image-container {
+  text-align: center;
+}
+
+.caption {
+  font-size: 10px;  
+  font-weight: 600;
+}
+
+.form-input {
+  display: block;  
+  margin: 20px auto;
+  width: 300px;
+  height: 25px;
+  font-size: 16px;
+}
+
+#contact-submit {
+  width: 100px;
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: #55acee;
+  border: 0;
+  line-height: 12px;
+  color: #eee;
+}
+
+#contact-message {
+  height: 100px;
+}
+
+@media (max-width: 920px) {
+  /* undo column layout on lower widths */
+  .column {
+    float: none;
+    width: 100%;
+  }  
+
+  .column .image-container {
+    text-align: center;
+  }
+}
