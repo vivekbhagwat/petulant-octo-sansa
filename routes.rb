@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "home"
+  redirect '/bio', 301
 end
 
 get '/bio' do
@@ -23,7 +23,8 @@ Photo Credit Russ Rowland"
 end
 
 get '/resume' do
-  send_to_template :resume, {}
+  image = "http://i.imgur.com/clMOfcb.jpg"
+  send_to_template :resume, {:image => image}
 end
 
 get '/contact' do
@@ -31,5 +32,18 @@ get '/contact' do
 end
 
 post '/contact' do
-  params[:post].inspect
+  email = 'montgomerysofia@gmail.com'
+
+  require 'pony'
+  #TODO make it so that this doesn't go to spam
+  #TODO figure out security
+  Pony.mail({
+    :from => params[:post][:email],
+    :to => email,
+    :subject => params[:post][:name] + "has contacted you via your website",
+    :body => params[:post][:message]
+  })
+
+  confirm = 'Email sent!'
+  send_to_template :contact, {:confirm => confirm}
 end

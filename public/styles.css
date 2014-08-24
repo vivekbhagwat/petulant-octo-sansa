@@ -29,7 +29,7 @@ body, input, .form {
 }
 
 .menu {
-  background-color: #55acee;
+  background-color: #95D4E2;
   height: 50px;
   width: 100%;
   list-style: none;
@@ -42,7 +42,7 @@ body, input, .form {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  width: 20%;
+  width: 25%;
   height: 100%;
   color: #eee;
 }
@@ -59,23 +59,23 @@ a.menu-link:active {
 }
 
 .menu-link {
-  border-bottom: 2px transparent solid;
+  border-bottom: 3px transparent solid;
 }
 
 .bio .menu-link-bio {
-  border-bottom-color: red;
+  border-bottom-color: #4D6469;
 }
 
 .projects .menu-link-projects {
-  border-bottom-color: red;
+  border-bottom-color: #5F9898;
 }
 
 .resume .menu-link-resume {
-  border-bottom-color: red;
+  border-bottom-color: #F8DB77;
 }
 
 .contact .menu-link-contact {
-  border-bottom-color: red;
+  border-bottom-color: #BA4853;
 }
 
 .content {
@@ -87,6 +87,12 @@ a.menu-link:active {
   clear: both;
   display: block;
   content: "";
+}
+
+.page-title {
+  font-weight: bold;
+  font-size: 1.5em; 
+  display: block;
 }
 
 footer {
@@ -108,7 +114,19 @@ footer {
 }
 
 .image-container img {
-  outline: 2px blue solid;      
+  outline: 2px #95D4E2 solid;
+}
+
+.bio .image-container img {
+  outline-color: #4D6469;
+}
+
+.projects .image-container img {
+  outline-color: #5F9898;
+}
+
+.resume .image-container img {
+  outline-color: #F8DB77;
 }
 
 .projects .image-container {
@@ -132,7 +150,7 @@ footer {
   width: 100px;
   cursor: pointer;
   padding: 5px 15px;
-  background-color: #55acee;
+  background-color: #BA4853;
   border: 0;
   line-height: 12px;
   color: #eee;
