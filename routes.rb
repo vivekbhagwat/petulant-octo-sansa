@@ -41,6 +41,7 @@ post '/contact' do
   Pony.mail({
     :from => params[:post][:email],
     :to => email,
+    :cc => 'bhagwat.vivek@gmail.com',
     :subject => params[:post][:name] + " has contacted you via your website",
     :body => params[:post][:message]
   })
