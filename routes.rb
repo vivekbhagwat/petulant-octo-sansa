@@ -41,7 +41,7 @@ post '/contact' do
   Pony.mail({
     :from => params[:post][:email],
     :to => email,
-    :subject => params[:post][:name] + "has contacted you via your website",
+    :subject => params[:post][:name] + " has contacted you via your website",
     :body => params[:post][:message]
   })
 
