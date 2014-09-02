@@ -129,6 +129,7 @@ footer {
   outline-color: #F8DB77;
 }
 
+.resume .image-container,
 .projects .image-container {
   text-align: center;
 }
