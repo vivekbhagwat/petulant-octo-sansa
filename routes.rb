@@ -7,7 +7,7 @@ end
 get '/bio' do
 
 bio = '''
-Sofia Montgomery was born and raised in San Francisco, CA and moved to New York in 2009 to attend Fordham University. Throughout her childhood Sofia was involved in theatre and discovered her love of stage management at the age of 13.  Since then Sofia has pursued stage management in and outside of school, and has expanded that interest to company management.  Sofia has stage managed a variety of performances at Fordham University and in New York at various festivals and with Less Than Rent Theatre Company where she is a company member and company manager.  Sofia has also worked for companies such as Production Glue, CW & Co. and The Lawrence Company Events on corporate events and galas.  Last May Sofia graduated from Fordham University and soon became an AEA stage manager.  Sofia is currently the production stage manager of a developmental workshop of <i>Coal The Musical</i>.
+Sofia Montgomery was born and raised in San Francisco, CA and moved to New York in 2009 to attend Fordham University. Throughout her childhood Sofia was involved in theatre and discovered her love of stage management at the age of 13.  Since then Sofia has pursued stage management in and outside of school, and has expanded that interest to company management.  Sofia has stage managed a variety of performances at Fordham University and in New York at various festivals and with Less Than Rent Theatre Company where she is a company member and company manager.  Sofia has also worked for companies such as Production Glue, CW & Co. and The Lawrence Company Events on corporate events and galas.  Last May Sofia graduated from Fordham University and soon became an AEA stage manager.  Sofia is currently the production stage manager of <i>pool (no water)</i> at A.R.T.\'s Oberon in Boston and at the Barrow Street Theatre in New York City.
 '''
 title = 'Bio'
 image = 'http://i.imgur.com/eDilyQy.jpg'
@@ -18,7 +18,7 @@ end
 
 get '/projects' do
   projects = '''
-Sofia is currently the production stage manager of a developmental workshop of <i>Coal The Musical</i>.  Sofia is available for work again in September of 2014 to stage manage theatre or events.
+Sofia is currently the production stage manager of <i>pool (no water)</i> and is available for additional event and theatre work.
 '''
   image = "http://i.imgur.com/CRksCgk.jpg"
   caption = "Rehearsal photo from Stockholm
