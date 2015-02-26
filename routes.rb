@@ -7,7 +7,7 @@ end
 get '/bio' do
 
 bio = '''
-Sofia Montgomery was born and raised in San Francisco, CA and moved to New York in 2009 to attend Fordham University. Throughout her childhood Sofia was involved in theatre and discovered her love of stage management at the age of 13.  Since then Sofia has pursued stage management in and outside of school, and has expanded that interest to company management.  Sofia has stage managed a variety of performances at Fordham University and in New York at various festivals and with Less Than Rent Theatre Company where she is a company member and company manager.  Sofia has also worked for companies such as Production Glue, CW & Co. and The Lawrence Company Events on corporate events and galas.  Last May Sofia graduated from Fordham University and soon became an AEA stage manager.  Sofia is currently the production stage manager of <i>pool (no water)</i> at A.R.T.\'s Oberon in Boston and at the Barrow Street Theatre in New York City.
+Sofia Montgomery was born and raised in San Francisco, CA and moved to New York in 2009 to attend Fordham University, majoring in stage management. Throughout her childhood Sofia was involved in theatre and discovered her love of stage management at the age of 13. Sofia continued to pursue stage management at Fordham and has enjoyed the start of an exciting career as an AEA stage manager.  Sofia has stage managed a variety of performances at venues such as New World Stages and 59E59. Sofia has stage managed many new works as well as musicals and has expanded her skills to also stage manage events. In the event world Sofia has worked for companies such as Production Glue and CW & Co. on corporate events and galas.  Sofia graduated from Fordham University in 2013 and soon became an AEA stage manager. Sofia\'s favorite recent projects include <i>The Two Character Play</i> at New World Stages, several exciting new productions with One Year Lease Theater Company and <i>Mighty Real: A Fabulous Sylvester Musical</i> produced by Sheryl Lee Ralph. 
 '''
 title = 'Bio'
 image = 'http://i.imgur.com/eDilyQy.jpg'
@@ -18,7 +18,7 @@ end
 
 get '/projects' do
   projects = '''
-Sofia is currently the production stage manager of <i>pool (no water)</i> and is available for additional event and theatre work.
+Sofia is currently the Production Stage Manager of <i>Mighty Real: A Fabulous Sylvester Musical</i> and is available for theatrical and event stage management starting March 2.
 '''
   image = "http://i.imgur.com/CRksCgk.jpg"
   caption = "Rehearsal photo from Stockholm
@@ -27,7 +27,7 @@ Photo Credit Russ Rowland"
 end
 
 get '/resume' do
-  image = "http://i.imgur.com/mPsi4wJ.jpg"
+  image = "http://i.imgur.com/csEjXVz.png"
   send_to_template :resume, {:image => image}
 end
 

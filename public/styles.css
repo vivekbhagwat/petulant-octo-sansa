@@ -115,6 +115,7 @@ footer {
 
 .image-container img {
   outline: 2px #95D4E2 solid;
+  max-width: 846px;
 }
 
 .bio .image-container img {
