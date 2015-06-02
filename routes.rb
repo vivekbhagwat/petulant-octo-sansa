@@ -7,7 +7,7 @@ end
 get '/bio' do
 
 bio = '''
-Sofia Montgomery was born and raised in San Francisco, CA and moved to New York in 2009 to attend Fordham University, majoring in stage management. Throughout her childhood Sofia was involved in theatre and discovered her love of stage management at the age of 13. Sofia continued to pursue stage management at Fordham and has enjoyed the start of an exciting career as an AEA stage manager.  Sofia has stage managed a variety of performances at venues such as New World Stages and 59E59. Sofia has stage managed many new works as well as musicals and has expanded her skills to also stage manage events. In the event world Sofia has worked for companies such as Production Glue and CW & Co. on corporate events and galas.  Sofia graduated from Fordham University in 2013 and soon became an AEA stage manager. Sofia\'s favorite recent projects include <i>The Two Character Play</i> at New World Stages, several exciting new productions with One Year Lease Theater Company and <i>Mighty Real: A Fabulous Sylvester Musical</i> produced by Sheryl Lee Ralph. 
+Sofia Montgomery was born and raised in San Francisco, CA and moved to New York in 2009 to attend Fordham University, majoring in stage management. Throughout her childhood Sofia was involved in theatre and discovered her love of stage management at the age of 13. Sofia continued to pursue stage management at Fordham and has enjoyed the start of an exciting career as an AEA stage manager. Sofia has stage managed a variety of performances at venues such as New World Stages and 59E59. Sofia has stage managed many new works as well as musicals and has expanded her skills to also stage manage events. In the event world Sofia has worked for companies such as Production Glue and CW & Co. on corporate events and galas. Sofia graduated from Fordham University in 2013 and soon became an AEA stage manager. Sofia\'s favorite recent projects include <i>The Two Character Play<i> at New World Stages, several exciting new productions with One Year Lease Theater Company and volunteering as a stage manager for Broadway Cares.
 '''
 title = 'Bio'
 image = 'http://i.imgur.com/eDilyQy.jpg'
@@ -18,7 +18,7 @@ end
 
 get '/projects' do
   projects = '''
-Sofia is currently the Production Stage Manager of <i>Mighty Real: A Fabulous Sylvester Musical</i> and is available for theatrical and event stage management starting March 2.
+Sofia is currently in rehearsals for a reading of Bandstand with PSM Lisa Dawn, performances for <i>Hey Jude</i> with the Cell Theatre at Urban Stages directed by Kira Simring and volunteering as a stage manager for Broadway Bares 25th year.
 '''
   image = "http://i.imgur.com/CRksCgk.jpg"
   caption = "Rehearsal photo from Stockholm
