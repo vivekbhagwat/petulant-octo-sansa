@@ -18,7 +18,7 @@ end
 
 get '/projects' do
   projects = '''
-Sofia is currently in rehearsals for a reading of Bandstand with PSM Lisa Dawn, performances for <i>Hey Jude</i> with the Cell Theatre at Urban Stages directed by Kira Simring and volunteering as a stage manager for Broadway Bares 25th year.
+Sofia is preparing for rehearsals for another exciting new play with One Year Lease Theater Company at 59E59 and is available for other opportunities.
 '''
   image = "http://i.imgur.com/CRksCgk.jpg"
   caption = "Rehearsal photo from Stockholm
@@ -27,7 +27,7 @@ Photo Credit Russ Rowland"
 end
 
 get '/resume' do
-  image = "http://i.imgur.com/csEjXVz.png"
+  image = "http://i.imgur.com/OgpWWzb.png"
   send_to_template :resume, {:image => image}
 end
 
