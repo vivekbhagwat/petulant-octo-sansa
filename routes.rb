@@ -18,7 +18,9 @@ end
 
 get '/projects' do
   projects = '''
-Sofia is preparing for rehearsals for another exciting new play with One Year Lease Theater Company at 59E59 and is available for other opportunities.
+Sofia is currently the PSM for One Year Lease Theater Company\'s production of <i>Please Excuse My Dear Aunt Sally</i> at 59E59 and is available for other opportunities. <i>Please Excuse My Dear Aunt Sally</i> was just named a
+<a href="http://www.nytimes.com/2015/10/07/theater/review-please-excuse-my-dear-aunt-sally-a-phones-tale.html">New York Times Critic\'s Pick!</a>
+
 '''
   image = "http://i.imgur.com/CRksCgk.jpg"
   caption = "Rehearsal photo from Stockholm
