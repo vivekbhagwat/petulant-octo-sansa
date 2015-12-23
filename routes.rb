@@ -18,7 +18,7 @@ end
 
 get '/projects' do
   projects = '''
-Sofia is currently the PSM for Birdland Theatre\'s production of Wide Awake Hearts at 59E59 and is available for other opportunities.
+Sofia is currently the PSM for Birdland Theatre\'s production of <i>Wide Awake Hearts</i> at 59E59 and is available for other opportunities.
 '''
   image = "http://i.imgur.com/CRksCgk.jpg"
   caption = "Rehearsal photo from Stockholm
@@ -27,7 +27,7 @@ Photo Credit Russ Rowland"
 end
 
 get '/resume' do
-  image = "http://i.imgur.com/I44sv1V.jpg"
+  image = "http://i.imgur.com/uZ53J5d.png"
   send_to_template :resume, {:image => image}
 end
 
