@@ -18,7 +18,7 @@ end
 
 get '/projects' do
   projects = '''
-Sofia is currently the PSM for three shows in the Brits Off Broadway Festival at 59E59 and is available for other opportunities.
+Sofia is currently excited to be traveling with One Year Lease Theater Company, stage managing <i>Please Excuse My Dear Aunt Sally</i> at the Edinburgh Fringe Festival.
 '''
   image = "http://i.imgur.com/CRksCgk.jpg"
   caption = "Rehearsal photo from Stockholm
@@ -27,7 +27,7 @@ Photo Credit Russ Rowland"
 end
 
 get '/resume' do
-  image = "http://i.imgur.com/N3qWjQS.png"
+  image = "http://i.imgur.com/tZl4WD6.png"
   send_to_template :resume, {:image => image}
 end
 
