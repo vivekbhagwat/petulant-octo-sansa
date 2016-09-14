@@ -18,7 +18,7 @@ end
 
 get '/projects' do
   projects = '''
-Sofia is currently excited to be traveling with One Year Lease Theater Company, stage managing <i>Please Excuse My Dear Aunt Sally</i> at the Edinburgh Fringe Festival.
+Sofia is currently stage managing <i>Bears in Space</i> by Eoghan Quinn and directed by Dan Colley at 59E59.
 '''
   image = "http://i.imgur.com/CRksCgk.jpg"
   caption = "Rehearsal photo from Stockholm
@@ -27,7 +27,7 @@ Photo Credit Russ Rowland"
 end
 
 get '/resume' do
-  image = "http://i.imgur.com/tZl4WD6.png"
+  image = "http://i.imgur.com/jPKjJ3J.png"
   send_to_template :resume, {:image => image}
 end
 
