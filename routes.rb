@@ -18,7 +18,7 @@ end
 
 get '/projects' do
   projects = '''
-Sofia is currently stage managing <i>Church and State</i> by Jason Odell Williams and directed by Markus Potter at New World Stages.
+Sofia is currently stage managing the <i>Brits Off Broadway</i> festival at 59E59 and available for work later in the summer.
 '''
   image = "http://i.imgur.com/CRksCgk.jpg"
   caption = "Rehearsal photo from Stockholm
@@ -27,7 +27,7 @@ Photo Credit Russ Rowland"
 end
 
 get '/resume' do
-  image = "http://i.imgur.com/XCWjKse.png"
+  image = "http://i.imgur.com/WuoqDoY.png"
   send_to_template :resume, {:image => image}
 end
 
