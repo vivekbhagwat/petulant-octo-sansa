@@ -148,6 +148,12 @@ footer {
   font-size: 16px;
 }
 
+.contact .contact-info {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
 #contact-submit {
   width: 100px;
   cursor: pointer;

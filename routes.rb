@@ -34,21 +34,3 @@ end
 get '/contact' do
   send_to_template :contact, {}
 end
-
-post '/contact' do
-  email = 'montgomerysofia@gmail.com'
-
-  require 'pony'
-  #TODO make it so that this doesn't go to spam
-  #TODO figure out security
-  Pony.mail({
-    :from => params[:post][:email],
-    :to => email,
-    :cc => 'bhagwat.vivek@gmail.com',
-    :subject => params[:post][:name] + " has contacted you via your website",
-    :body => params[:post][:message]
-  })
-
-  confirm = 'Email sent!'
-  send_to_template :contact, {:confirm => confirm}
-end
