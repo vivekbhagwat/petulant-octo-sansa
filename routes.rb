@@ -27,7 +27,7 @@ Photo Credit Russ Rowland"
 end
 
 get '/resume' do
-  image = "http://imgur.com/7qzpJcI.png"
+  image = "http://imgur.com/ePXeoCB.png"
   send_to_template :resume, {:image => image}
 end
 
