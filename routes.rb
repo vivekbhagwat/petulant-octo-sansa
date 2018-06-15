@@ -7,11 +7,11 @@ end
 get '/bio' do
 
 bio = '''
-Sofia Montgomery was born and raised in San Francisco, CA and moved to New York in 2009 to attend Fordham University, majoring in stage management. Throughout her childhood Sofia was involved in theatre and discovered her love of stage management at the age of 13. Sofia continued to pursue stage management at Fordham and has enjoyed the start of an exciting career as an AEA stage manager. Sofia has stage managed a variety of performances at venues such as New World Stages and 59E59. Sofia has stage managed many new works as well as musicals and has expanded her skills to also stage manage events. In the event world Sofia has worked for companies such as Production Glue and CW & Co. on corporate events and galas. Sofia graduated from Fordham University in 2013 and soon became an AEA stage manager. Sofia\'s favorite recent projects include a workshop of <i>Prosthesis</i> directed by Moritz von Stuelpnagel and written by Robert Askins, the Pipeline Festival at the Women\'s Project, the national tour of <i>Irving Berlin\'s White Christmas</i> and volunteering as a stage manager for Broadway Cares.
+Sofia Montgomery was born and raised in San Francisco, CA and moved to New York in 2009 to attend Fordham University, majoring in stage management. Sofia has stage managed a variety of performances at venues such as New World Stages and 59E59 in New York. She has also had the opportunity to work on National Tours as well as the renowned Edinburgh Fringe Festival. Sofia has stage managed many new works as well as musicals and has expanded her skills to also stage manage events. In the event world Sofia has worked for companies such as Production Glue, Technical Producing Group and Bentley Meeker as a stage manager, talent wrangler, and production coordinator on a wide array of corporate events and galas. Sofia is an Actor\'s Equity Association stage manager and is also exploring other roles in the events and non-profit worlds.
 '''
 title = 'Bio'
-image = 'http://i.imgur.com/eDilyQy.jpg'
-caption = "Photo Credit Mai Demeterio"
+image = 'http://i.imgur.com/J0nKX7J.jpg'
+caption = ""
 
   send_to_template :bio, {:title => title, :bio => bio, :image => image, :caption => caption}
 end
