@@ -120,6 +120,7 @@ footer {
 
 .bio .image-container img {
   outline-color: #4D6469;
+  max-width: 100%;
 }
 
 .projects .image-container img {
